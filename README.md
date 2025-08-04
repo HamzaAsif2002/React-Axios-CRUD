@@ -1,12 +1,11 @@
-# React + Vite
+Post Manager is a simple yet powerful React application that demonstrates full CRUD operations using Axios with a mock REST API (jsonplaceholder.typicode.com). The app allows users to:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Create new posts using a dynamic form
 
-Currently, two official plugins are available:
+Read and display a list of posts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Update existing posts with pre-filled form editing
 
-## Expanding the ESLint configuration
+Delete posts instantly from the UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project showcases practical React patterns such as state management with useState, side effects with useEffect, and clean API integration using Axios. It also includes UI feedback like loading states and controlled form inputs, making it both functional and beginner-friendly.
